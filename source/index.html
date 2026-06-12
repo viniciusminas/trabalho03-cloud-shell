@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minas Store - Pequeno E-Commerce</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navegação principal">
+      <a class="brand" href="index.html">Minas Store</a>
+      <div class="nav-links">
+        <a href="index.html" aria-current="page">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="sobre.html">Sobre</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <span class="eyebrow">Cloud Computing + Shell Script</span>
+        <h1>E-commerce estático publicado em ambiente cloud.</h1>
+        <p>
+          Uma vitrine simples, automatizada e preparada para demonstrar deploy,
+          backup, monitoramento e operações em um servidor Apache containerizado.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#produtos">Ver produtos</a>
+          <a class="button secondary" href="sobre.html">Detalhes do projeto</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Resumo do ambiente">
+        <div>
+          <span class="panel-label">Status</span>
+          <strong>Deploy concluído</strong>
+        </div>
+        <div>
+          <span class="panel-label">Servidor</span>
+          <strong>Apache no Ubuntu</strong>
+        </div>
+        <div>
+          <span class="panel-label">Automacao</span>
+          <strong>Shell Script</strong>
+        </div>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section class="intro-section">
+      <div class="container intro-grid">
+        <div>
+          <span class="section-kicker">Ambiente de e-commerce</span>
+          <h2>Uma loja demonstrativa com infraestrutura automatizada.</h2>
+        </div>
+        <p>
+          Este site representa uma aplicação estática de um pequeno e-commerce,
+          publicada em um servidor Apache dentro de um container Linux Ubuntu.
+          O foco do projeto é mostrar organização operacional, automação e uma
+          entrega visual mais profissional.
+        </p>
+      </div>
+    </section>
+
+    <section class="products-section" id="produtos">
+      <div class="container section-heading">
+        <span class="section-kicker">Produtos em destaque</span>
+        <h2>Vitrine Minas Store</h2>
+      </div>
+
+      <div class="container produtos">
+        <article class="produto">
+          <img src="assets/produto-notebook.png" alt="Notebook corporativo aberto sobre fundo claro">
+          <div class="produto-body">
+            <span class="tag">Produtividade</span>
+            <h3>Notebook Corporativo</h3>
+            <p>Equipamento para produtividade, estudos e trabalho remoto.</p>
+            <div class="produto-footer">
+              <span class="preco">R$ 3.499,00</span>
+              <span class="mini-button">Oferta</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="produto">
+          <img src="assets/produto-mouse.png" alt="Mouse sem fio ergonômico sobre fundo claro">
+          <div class="produto-body">
+            <span class="tag">Escritorio</span>
+            <h3>Mouse Sem Fio</h3>
+            <p>Periférico ergonômico para uso diário no escritório.</p>
+            <div class="produto-footer">
+              <span class="preco">R$ 89,90</span>
+              <span class="mini-button">Oferta</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="produto">
+          <img src="assets/produto-teclado.png" alt="Teclado mecânico compacto sobre fundo claro">
+          <div class="produto-body">
+            <span class="tag">Programacao</span>
+            <h3>Teclado Mecânico</h3>
+            <p>Teclado voltado para digitação, produtividade e programação.</p>
+            <div class="produto-footer">
+              <span class="preco">R$ 249,90</span>
+              <span class="mini-button">Oferta</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="operations-section">
+      <div class="container operations-grid">
+        <div>
+        <span class="section-kicker">Operações automatizadas</span>
+          <h2>Rotinas pensadas para um ambiente DevOps.</h2>
+          <p>
+            O ambiente possui scripts para atualizacao do sistema, instalacao do
+            Apache, backup, deploy, monitoramento, usuários, permissões e
+            relatório operacional.
+          </p>
+          <a class="text-link" href="sobre.html">Conhecer detalhes do projeto</a>
+        </div>
+
+        <div class="feature-grid" aria-label="Recursos automatizados">
+          <article class="feature">
+            <strong>Deploy</strong>
+            <span>Publicacao do site estatico no Apache.</span>
+          </article>
+          <article class="feature">
+            <strong>Backup</strong>
+            <span>Rotina para preservar os arquivos do ambiente.</span>
+          </article>
+          <article class="feature">
+            <strong>Monitoramento</strong>
+            <span>Verificacao de processos e disponibilidade.</span>
+          </article>
+          <article class="feature">
+            <strong>Permissoes</strong>
+            <span>Organizacao de usuarios e acessos do sistema.</span>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Trabalho 03 - Linux, Shell Script e Cloud Computing | Vinícius Minas</p>
+  </footer>
+
+</body>
+</html>

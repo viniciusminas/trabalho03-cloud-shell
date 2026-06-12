@@ -1,0 +1,44 @@
+===== MONITORAMENTO DO SISTEMA =====
+Data/Hora da coleta: 2026-06-11 00:19:53
+Uso de CPU: %
+Uso de memória RAM: 11%
+Uso de disco em /app: 75%
+Status do Apache: em execução
+[OK] CPU dentro do limite em 2026-06-11 00:19:53
+[OK] Memória dentro do limite em 2026-06-11 00:19:53
+[OK] Disco dentro do limite em 2026-06-11 00:19:53
+[OK] Apache em execução em 2026-06-11 00:19:53
+
+===== MONITORAMENTO DO SISTEMA =====
+Data/Hora da coleta: 2026-06-11 00:28:30
+Uso de CPU: 0%
+Uso de memória RAM: 11%
+Uso de disco em /app: 75%
+Status do Apache: em execução
+[OK] CPU dentro do limite em 2026-06-11 00:28:30
+[OK] Memória dentro do limite em 2026-06-11 00:28:30
+[OK] Disco dentro do limite em 2026-06-11 00:28:30
+[OK] Apache em execução em 2026-06-11 00:28:30
+
+===== MONITORAMENTO DO SISTEMA =====
+Data/Hora da coleta: 2026-06-11 00:40:02
+Uso de CPU: 0%
+Uso de memória RAM: 11%
+Uso de disco em /app: 75%
+Status do Apache: em execução
+[OK] CPU dentro do limite em 2026-06-11 00:40:02
+[OK] Memória dentro do limite em 2026-06-11 00:40:02
+[OK] Disco dentro do limite em 2026-06-11 00:40:02
+[OK] Apache em execução em 2026-06-11 00:40:02
+
+===== MONITORAMENTO DO SISTEMA =====
+Data/Hora da coleta: 2026-06-12 22:30:03
+Uso de CPU: 0%
+Uso de memória RAM: 10%
+Uso de disco em /app: 76%
+Status do Apache: em execução
+[OK] CPU dentro do limite em 2026-06-12 22:30:03
+[OK] Memória dentro do limite em 2026-06-12 22:30:03
+[OK] Disco dentro do limite em 2026-06-12 22:30:03
+[OK] Apache em execução em 2026-06-12 22:30:03
+

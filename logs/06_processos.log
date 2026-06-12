@@ -1,0 +1,7 @@
+==== Listagem de processos em Thu Jun 11 00:10:17 UTC 2026 ====
+[INFO] Processos listados em Thu Jun 11 00:10:17 UTC 2026
+==== Busca por processo: apache em Thu Jun 11 00:10:17 UTC 2026 ====
+[OK] Processo apache encontrado em Thu Jun 11 00:10:17 UTC 2026
+[ERRO] Tentativa de encerrar processo sem PID em Thu Jun 11 00:10:17 UTC 2026
+==== Listagem de processos em Thu Jun 11 00:39:56 UTC 2026 ====
+[INFO] Processos listados em Thu Jun 11 00:39:56 UTC 2026

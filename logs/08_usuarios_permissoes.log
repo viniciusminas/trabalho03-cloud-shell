@@ -1,0 +1,18 @@
+[SUCESSO] Grupo ecommerce_ops criado em Thu Jun 11 00:23:01 UTC 2026
+[SUCESSO] Usuário pedido_user criado em Thu Jun 11 00:23:01 UTC 2026
+[SUCESSO] Permissões aplicadas em Thu Jun 11 00:23:02 UTC 2026
+===== RESULTADO DE PERMISSÕES =====
+drwxr-x--- 1 pedido_user ecommerce_ops 4096 Jun 10 22:51 /app/ecommerce/pedidos
+drwxr-xr-x 1 root ecommerce_ops 4096 Jun 10 22:51 /app/ecommerce/produtos
+drwxr-x--- 1 root ecommerce_ops 4096 Jun 10 22:51 /app/ecommerce/clientes
+uid=999(pedido_user) gid=1000(ecommerce_ops) groups=1000(ecommerce_ops)
+
+[INFO] Grupo ecommerce_ops já existia em Thu Jun 11 00:40:05 UTC 2026
+[INFO] Usuário pedido_user já existia em Thu Jun 11 00:40:05 UTC 2026
+[SUCESSO] Permissões aplicadas em Thu Jun 11 00:40:05 UTC 2026
+===== RESULTADO DE PERMISSÕES =====
+drwxr-x--- 1 pedido_user ecommerce_ops 4096 Jun 11 00:39 /app/ecommerce/pedidos
+drwxr-xr-x 1 root ecommerce_ops 4096 Jun 11 00:39 /app/ecommerce/produtos
+drwxr-x--- 1 root ecommerce_ops 4096 Jun 11 00:39 /app/ecommerce/clientes
+uid=999(pedido_user) gid=1000(ecommerce_ops) groups=1000(ecommerce_ops)
+

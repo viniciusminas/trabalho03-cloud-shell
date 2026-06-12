@@ -1,0 +1,67 @@
+===== RELATÓRIO OPERACIONAL AUTOMATIZADO =====
+Data/Hora: Thu Jun 11 00:40:09 UTC 2026
+Projeto: Trabalho 03 - Linux, Shell Script e Cloud Computing
+Tema: Infraestrutura para um Pequeno E-Commerce
+Aluno: Vinícius Minas
+================================================
+
+===== ESPAÇO EM DISCO =====
+Filesystem      Size  Used Avail Use% Mounted on
+overlay        1007G   13G  944G   2% /
+tmpfs            64M     0   64M   0% /dev
+tmpfs           4.8G     0  4.8G   0% /sys/fs/cgroup
+shm              64M     0   64M   0% /dev/shm
+C:\             476G  355G  121G  75% /app
+/dev/sdd       1007G   13G  944G   2% /etc/hosts
+tmpfs           4.8G     0  4.8G   0% /proc/acpi
+tmpfs           4.8G     0  4.8G   0% /sys/firmware
+
+===== USO DOS DIRETÓRIOS =====
+0	/app/ecommerce/backups
+0	/app/ecommerce/clientes
+0	/app/ecommerce/dados
+0	/app/ecommerce/logs
+0	/app/ecommerce/pedidos
+0	/app/ecommerce/produtos
+0	/app/ecommerce/publicacao
+
+===== STATUS DO APACHE =====
+Apache em execução.
+Server version: Apache/2.4.52 (Ubuntu)
+Server built:   2026-06-03T15:42:24
+
+===== ÚLTIMOS BACKUPS =====
+total 0
+-rw-r--r-- 1 root root 338 Jun 10 23:08 backup_ecommerce_2026-06-10_23-08-14.tar.gz
+-rw-r--r-- 1 root root 339 Jun 11 00:39 backup_ecommerce_2026-06-11_00-39-46.tar.gz
+
+===== LOGS GERADOS =====
+total 28K
+-rw-r--r-- 1 root root 6.5K Jun 11 00:39 01_update.log
+-rw-r--r-- 1 root root 2.0K Jun 11 00:39 02_apache.log
+-rw-r--r-- 1 root root  278 Jun 11 00:39 03_estrutura.log
+-rw-r--r-- 1 root root  344 Jun 11 00:39 04_backup.log
+-rw-r--r-- 1 root root  645 Jun 11 00:39 05_deploy.log
+-rw-r--r-- 1 root root  455 Jun 11 00:39 06_processos.log
+-rw-r--r-- 1 root root 1.2K Jun 11 00:40 07_monitoramento.log
+-rw-r--r-- 1 root root 1.1K Jun 11 00:40 08_usuarios_permissoes.log
+-rw-r--r-- 1 root root 1.3K Jun 11 00:40 relatorio_execucao.txt
+
+===== ARQUIVOS PUBLICADOS NO APACHE =====
+total 16K
+drwxr-xr-x 2 root root 4.0K Jun 11 00:39 assets
+-rwxr-xr-x 1 root root 5.6K Jun 11 00:39 index.html
+-rwxr-xr-x 1 root root 3.8K Jun 11 00:39 sobre.html
+
+===== USUÁRIOS E PERMISSÕES =====
+Grupo configurado: ecommerce_ops
+ecommerce_ops:x:1000:
+
+Usuário configurado: pedido_user
+uid=999(pedido_user) gid=1000(ecommerce_ops) groups=1000(ecommerce_ops)
+
+Permissões dos diretórios principais:
+drwxr-x--- 1 pedido_user ecommerce_ops 4096 Jun 11 00:39 /app/ecommerce/pedidos
+drwxr-xr-x 1 root ecommerce_ops 4096 Jun 11 00:39 /app/ecommerce/produtos
+drwxr-x--- 1 root ecommerce_ops 4096 Jun 11 00:39 /app/ecommerce/clientes
+
