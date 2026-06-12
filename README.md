@@ -94,7 +94,7 @@ Essa estrutura representa áreas comuns de um pequeno e-commerce, como produtos,
 ### 1. Clonar o repositório
 
 ```bash
-git clone <link-do-repositorio-github>
+git clone https://github.com/viniciusminas/trabalho03-cloud-shell
 cd trabalho03-cloud-shell
 ```
 
