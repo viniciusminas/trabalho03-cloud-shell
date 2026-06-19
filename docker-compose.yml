@@ -5,6 +5,11 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./:/app
+      - ecommerce_dados:/app/ecommerce
+      - ./backups:/app/backups
+      - ./logs:/app/logs
     tty: true
     stdin_open: true
+
+volumes:
+  ecommerce_dados:
